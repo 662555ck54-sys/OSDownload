@@ -1,0 +1,36 @@
+OS_CATALOG = [
+    # Official / mainstream
+    {"name":"Windows 11","category":"Windows","type":"Official","versions":"Windows 11","editions":"Home, Pro, Enterprise, Education, IoT (availability varies)","arch":"x64, ARM64","url":"https://www.microsoft.com/software-download/windows11"},
+    {"name":"Windows 10","category":"Windows","type":"Official","versions":"Windows 10","editions":"Home, Pro, Enterprise, Education, IoT Enterprise (availability varies)","arch":"x86, x64, ARM64","url":"https://www.microsoft.com/software-download/windows10"},
+    {"name":"Windows 7","category":"Windows","type":"Official / Legacy","versions":"Windows 7","editions":"Starter, Home Basic, Home Premium, Professional, Enterprise, Ultimate","arch":"x86, x64","url":"https://www.microsoft.com/software-download/windows7"},
+    {"name":"macOS","category":"macOS","type":"Official","versions":"Current and legacy releases","editions":"Standard","arch":"Apple Silicon, x86_64","url":"https://support.apple.com/downloads/macos"},
+    {"name":"Ubuntu","category":"Linux","type":"Official","versions":"LTS and current releases","editions":"Desktop, Server, flavors","arch":"x64 and other supported architectures","url":"https://ubuntu.com/download"},
+    {"name":"Debian","category":"Linux","type":"Official","versions":"Stable, Testing, Unstable","editions":"Multiple desktop environments","arch":"Many architectures","url":"https://www.debian.org/distrib/"},
+    {"name":"Fedora","category":"Linux","type":"Official","versions":"Current releases","editions":"Workstation, Server, Spins, Labs","arch":"x86_64, ARM64 and others","url":"https://fedoraproject.org/workstation/download/"},
+    {"name":"Arch Linux","category":"Linux","type":"Official","versions":"Rolling release","editions":"Base installation","arch":"x86_64","url":"https://archlinux.org/download/"},
+    {"name":"Linux Mint","category":"Linux","type":"Official","versions":"Current releases","editions":"Cinnamon, MATE, Xfce","arch":"x64; release-dependent","url":"https://www.linuxmint.com/download.php"},
+    {"name":"Kali Linux","category":"Linux","type":"Official","versions":"Current releases","editions":"Installer, Live, VM, ARM","arch":"Multiple architectures","url":"https://www.kali.org/get-kali/"},
+    {"name":"Parrot OS","category":"Linux","type":"Official","versions":"Current releases","editions":"Security, Home","arch":"x64 and supported builds","url":"https://www.parrotsec.org/download/"},
+    {"name":"openSUSE","category":"Linux","type":"Official","versions":"Leap, Tumbleweed","editions":"Multiple desktop options","arch":"Multiple architectures","url":"https://get.opensuse.org/"},
+    {"name":"Manjaro","category":"Linux","type":"Official","versions":"Rolling releases","editions":"Xfce, KDE, GNOME","arch":"x64 and ARM variants","url":"https://manjaro.org/products/download/x86"},
+    {"name":"Gentoo","category":"Linux","type":"Official","versions":"Rolling","editions":"Source-based","arch":"Multiple architectures","url":"https://www.gentoo.org/downloads/"},
+    {"name":"Alpine Linux","category":"Linux","type":"Official","versions":"Current releases","editions":"Standard, Extended, Virtual and more","arch":"Multiple architectures","url":"https://alpinelinux.org/downloads/"},
+    {"name":"ChromeOS Flex","category":"ChromeOS","type":"Official","versions":"Current releases","editions":"ChromeOS Flex","arch":"x86-64","url":"https://support.google.com/chromeosflex/"},
+    {"name":"ChromiumOS","category":"ChromeOS","type":"Open Source Project","versions":"Project builds","editions":"Build-dependent","arch":"Build-dependent","url":"https://www.chromium.org/chromium-os/"},
+    {"name":"FreeBSD","category":"BSD","type":"Official","versions":"Current releases","editions":"Base OS","arch":"Multiple architectures","url":"https://www.freebsd.org/where/"},
+    {"name":"OpenBSD","category":"BSD","type":"Official","versions":"Current releases","editions":"Base OS","arch":"Multiple architectures","url":"https://www.openbsd.org/faq/faq4.html"},
+    {"name":"NetBSD","category":"BSD","type":"Official","versions":"Current releases","editions":"Base OS","arch":"Many architectures","url":"https://www.netbsd.org/releases/"},
+    {"name":"Haiku","category":"Other","type":"Open Source","versions":"Current releases","editions":"Haiku","arch":"x86_64 and supported builds","url":"https://www.haiku-os.org/get-haiku/"},
+    {"name":"ReactOS","category":"Other","type":"Open Source","versions":"Current releases","editions":"ReactOS","arch":"x86/x64 support varies","url":"https://reactos.org/download/"},
+    {"name":"FreeDOS","category":"DOS","type":"Open Source","versions":"Current releases","editions":"FreeDOS","arch":"x86","url":"https://www.freedos.org/download/"},
+
+    # Modified / experimental / unusual
+    {"name":"Tiny10","category":"Modified / Experimental","type":"Community Modified","versions":"Tiny10 variants","editions":"Release-dependent","arch":"Usually x64; verify release","url":"https://archive.org/search?query=tiny10"},
+    {"name":"Tiny11","category":"Modified / Experimental","type":"Community Modified","versions":"Tiny11 variants","editions":"Release-dependent","arch":"Usually x64; verify release","url":"https://github.com/ntdevlabs/tiny11builder"},
+    {"name":"TempleOS","category":"Modified / Experimental","type":"Legacy / Community","versions":"TempleOS releases","editions":"TempleOS","arch":"x86-64","url":"https://templeos.org/"},
+    {"name":"SerenityOS","category":"Modified / Experimental","type":"Open Source / Experimental","versions":"Development builds","editions":"SerenityOS","arch":"x86_64 and build-dependent","url":"https://serenityos.org/"},
+    {"name":"MenuetOS","category":"Modified / Experimental","type":"Experimental","versions":"Current releases","editions":"Menuet64/Menuet32","arch":"x86/x86-64","url":"https://menuetos.net/"},
+    {"name":"KolibriOS","category":"Modified / Experimental","type":"Open Source / Experimental","versions":"Current releases","editions":"KolibriOS","arch":"x86","url":"https://kolibrios.org/"},
+    {"name":"Redox OS","category":"Modified / Experimental","type":"Open Source / Experimental","versions":"Development releases","editions":"Redox","arch":"Build-dependent","url":"https://www.redox-os.org/"},
+    {"name":"Red Star OS","category":"Modified / Experimental","type":"Unusual / Historical","versions":"Historical releases","editions":"Release-dependent","arch":"Release-dependent","url":"https://en.wikipedia.org/wiki/Red_Star_OS"}
+]
